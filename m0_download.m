@@ -1,9 +1,8 @@
-% Download the NIFTI toolbox and Craddock's demo data from the web. You
+% Download the NIFTI toolbox and the demo data from the web. You
 % might do this manually from the links:
 %     http://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image
-%     https://www.nitrc.org/projects/cluster_roi/
-% If so, unzip the NIFTI toolbox and add it to the Matlab search path, put
-% the .tar.gz demo data in the same folder as the scripts.
+%     http://www.nitrc.org/projects/slic
+% If so, put the toolbox and the demo data in the folder of GWC scripts. 
 % 2016-4-8 15:36:40
 
 clear,clc;
