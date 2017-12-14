@@ -1,5 +1,5 @@
 function feature_0(iSub)
-% coordinates
+% mean coordinates
 % 2017-5-15 10:59:50
 
 load sInfo.mat;

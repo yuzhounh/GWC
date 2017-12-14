@@ -1,6 +1,6 @@
 function Ncut_sub_parc(iSub,iK)
 % Perform individual subject level parcellation by Ncut. Reproduced from
-% Craddock et al., 2012. 
+% (Craddock et al., 2012). 
 % 2016-4-8 16:05:41 
 
 tic;

@@ -5,15 +5,13 @@ function Z=GWC_Z(S,K)
 % output: Z, eigenvectors
 % 2017-5-15 21:19:20
 
-n=size(S,1);
-
 S=(S+S')/2; % to be symmetric
+n=size(S,1);
 D=diag(S*ones(n,1));
 L=D-S; % Laplacian matrix
 
-% It is not necessary to sort the eigenvectors. ?
 [EV,ED]=eigs(L+10*eps*eye(size(L)),K,'SM'); % K smallest eigenvalues
 EDD=diag(ED);
-[EDD,ix]=sort(EDD,'descend'); % sort the eigenvectors in descending order
-EV=EV(:,ix);
+[~,ix]=sort(EDD,'descend'); % sort the eigenvalues in descending order
+EV=EV(:,ix); % sort the eigenvectors accordingly
 Z=EV;

@@ -1,4 +1,5 @@
 function feature_LBP(iSub)
+% calculate 3D LBP according to (Montagne et al., 2013). 
 % 2017-3-14 22:47:22
 
 load sInfo.mat;
@@ -40,9 +41,9 @@ for iVoxel=1:nVoxel
         tmp=tmp([1:3,5:7])-tmp(4);
         tmp=double(tmp>=0);
         
-        % turn the six binary code into LBP(3D,6,1) code
+        % map the six binary code to LBP(3D,6,1) code
         % ten potential classes
-        tmp=parc_LBP(tmp);
+        tmp=feature_LBP_map(tmp);
         
         % save the LBP results
         LBP(iVoxel,iV)=tmp;

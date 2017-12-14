@@ -1,5 +1,5 @@
 function eval_sdi(method,i)
-% actual cluster number
+% spatial discontiguity index
 % 2017-7-25 21:38:44
 
 load stat.mat;

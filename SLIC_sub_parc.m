@@ -1,5 +1,5 @@
 function SLIC_sub_parc(iSub,iK)
-% Perform individual subject level parcellation by SLIC. 
+% perform individual subject level parcellation by SLIC
 % 2016-4-8 16:05:41 
 
 tic;

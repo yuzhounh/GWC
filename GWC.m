@@ -1,5 +1,5 @@
 function [S,Z,alpha,beta,iter,time]=GWC(iSub,iK,lambda,gamma,nNonzero)
-% GWC algorithm
+% the GWC algorithm
 % 2017-5-24 15:19:07
 
 tic;

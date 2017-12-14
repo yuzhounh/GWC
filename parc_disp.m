@@ -1,5 +1,5 @@
 function parc_disp(file,opt)
-% Display fMRI data by averaging the fourth dimension
+% Display fMRI data by averaging the fourth dimension.
 % Input:
 %     file, fMRI data in .nii or .mat format.
 %     opt, options (optional)

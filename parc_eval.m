@@ -1,5 +1,5 @@
 function parc_eval(method)
-% evaluation a parcellation method
+% evaluate a parcellation method
 % 2017-6-12 13:59:41
 
 mkdir(sprintf('%s_num',method));

@@ -1,7 +1,7 @@
 function y=parc_eigenvector(x)
 % For each column in x, multiply it by -1 if the element with the maximum
 % absolute value in it is negative. By this way, the signs of the
-% eigenvectors will change arbitrarily. 
+% eigenvectors will not change arbitrarily. 
 % 2017-8-15 21:49:33
 
 [m,n]=size(x);

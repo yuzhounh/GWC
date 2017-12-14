@@ -1,7 +1,4 @@
 function [S,alphas]=GWC_S(V,k)
-% set the diagonal elements in S to be zeros
-% 2017-5-22 20:48:41
-
 % update S when fixing Z and alpha
 % tune k instead of beta, as in CAN
 % 2017-5-15 21:32:22

@@ -1,5 +1,5 @@
 function graph_sub(iSub)
-% Calculate the graphs for each feature and each subject.
+% calculate the graphs for each feature and each subject
 % 2017-6-4 18:18:59
 
 load sInfo.mat;

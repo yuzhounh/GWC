@@ -1,5 +1,5 @@
 function [label,iter,time]=SLIC(img_gray,m,cN)
-% Simple linear iterative clustering (SLIC)
+% Simple linear iterative clustering (SLIC).
 % Input:
 %     img_gray, each row is a voxel, each column is a feature
 %     m, the tuning parameter

@@ -1,5 +1,5 @@
 function img_slice=parc_slice(img_bg,img_parc,index)
-% draw a slice as color patches
+% Draw a slice as color patches.
 % Inputs:
 %     img_bg, image for the background
 %     img_parc, image of the parcellation results

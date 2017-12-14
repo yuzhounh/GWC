@@ -1,4 +1,4 @@
-% plot the evaluation metrics
+% calculate and plot the evaluation metrics
 % 2017-12-14 16:11:26
 
 clear,clc,close all;

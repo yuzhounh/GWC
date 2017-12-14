@@ -1,5 +1,5 @@
 function feature_3(iSub)
-% LBP historgram for each supervoxel
+% LBP historgram 
 % 2017-5-15 16:39:55
 
 load sInfo.mat;

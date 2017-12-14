@@ -1,5 +1,5 @@
 function eval_hom(method,i)
-% homogeneity
+% functional homogeneity
 % 2017-7-25 21:38:44
 
 load stat.mat;

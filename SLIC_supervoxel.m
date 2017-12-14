@@ -1,5 +1,6 @@
 function SLIC_supervoxel(iSub)
-% Perform individual subject level parcellation by SLIC. 
+% Generate supervoxels by SLIC. These supervoxels will be merged by GWC to
+% generate clusters. 
 % 2016-4-8 16:05:41 
 
 tic;

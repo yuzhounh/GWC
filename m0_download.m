@@ -2,7 +2,8 @@
 % download them manually from the links:
 %     http://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image
 %     http://www.nitrc.org/projects/slic
-% If so, put the toolbox and the demo data in the folder of GWC scripts. 
+% If so, put the toolbox and the demo data in the same folder as the
+% current script. 
 % 2016-4-8 15:36:40
 
 clear,clc;

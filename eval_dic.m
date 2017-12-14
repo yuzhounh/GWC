@@ -1,5 +1,5 @@
 function eval_dic(method,i)
-% Dice
+% Dice coeffcient
 % 2017-7-25 22:07:44
 
 load stat_dice.mat;

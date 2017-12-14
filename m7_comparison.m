@@ -1,4 +1,4 @@
-% compare the evaluation results between the three parcellation methods
+% compare the evaluation results between the three parcellation approaches
 % 2017-8-17 09:00:40
 
 clear,clc;

@@ -1,5 +1,5 @@
 function parc_plot(method)
-% plot the evaluation results for a method
+% plot the evaluation results for a parcellation approach
 % 2017-12-14 16:16:27
 
 figure;

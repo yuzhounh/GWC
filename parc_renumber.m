@@ -1,4 +1,5 @@
 function img_parc=parc_renumber(img_parc)
+% renumber the labels to be consecutive numbers
 % 2017-6-13 11:15:13
 
 % renumber regions

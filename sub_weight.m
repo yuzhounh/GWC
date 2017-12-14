@@ -1,6 +1,5 @@
 function sub_weight(iSub)
-% the individual subject level weight matrix with spatial constraint and a 
-% hard threshold
+% a full weight matrix without spatial constraint or hard threshold
 % 2016-4-8 16:00:17
 
 tic;

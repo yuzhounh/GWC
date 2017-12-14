@@ -1,5 +1,5 @@
 function GWC_sub_parc(iSub,iK)
-% Parcellation by GWC.
+% perform individual subject level parcellation by GWC
 % 2017-8-16 10:09:39
 
 load sInfo.mat;

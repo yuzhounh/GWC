@@ -22,6 +22,7 @@ sK=[25:25:500];
 nK=length(sK);
 
 % number of parallel workers
+% set it carefully
 nPar=36; 
 
 % load subject IDs

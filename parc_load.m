@@ -1,5 +1,5 @@
 function parc_load(iSub)
-% load the image data within the graymatter mask
+% load the image data within the graymatter mask and perform normalization
 % 2017-7-7 20:40:57
 
 load sInfo.mat;
