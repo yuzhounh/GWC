@@ -1,5 +1,5 @@
-% Download the NIFTI toolbox and the demo data from the web. You
-% might do this manually from the links:
+% Download the NIFTI toolbox and the demo data from the web. You might 
+% download them manually from the links:
 %     http://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image
 %     http://www.nitrc.org/projects/slic
 % If so, put the toolbox and the demo data in the folder of GWC scripts. 
@@ -7,7 +7,9 @@
 
 clear,clc;
 
-% NIFTI toolbox, 0.42 MB
+% the NIFTI toolbox
+% 0.42 MB
+% From http://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image
 url='http://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/8797/versions/28/download/zip/NIfTI_20140122.zip';
 filename='NIfTI_20140122.zip';
 if ~exist(filename,'file')
