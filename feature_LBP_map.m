@@ -4,8 +4,8 @@ function [x_LBP, x_card]=feature_LBP_map(x)
 % Input:
 %     x, six binary code, e.g., [0,1,0,1,0,1]
 % Output:
-%     x_LBP, LBP(3D,6,1) code
-%     x_card, the cardinality of x
+%     x_LBP, LBP(3D,6,1) code, 1~10
+%     x_card, the cardinality of x, 0~6
 % 2017-3-15 09:20:58
 
 % cardinality
