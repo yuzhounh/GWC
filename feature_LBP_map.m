@@ -1,7 +1,11 @@
 function [x_LBP, x_card]=feature_LBP_map(x)
-% calculate 3D LBP according to (Montagne et al., 2013)
-% map the six binary code to LBP(3D,6,1) code
-% ten potential classes
+% Calculate 3D LBP according to (Montagne et al., 2013). Map the six 
+% binary code to LBP(3D,6,1) code. There are ten potential classes totally.
+% Input:
+%     x, six binary code, e.g., [0,1,0,1,0,1]
+% Output:
+%     x_LBP, LBP(3D,6,1) code
+%     x_card, the cardinality of x
 % 2017-3-15 09:20:58
 
 % cardinality
