@@ -1,5 +1,5 @@
 function SDI=parc_sdi(img_parc)
-% spatial discontiguity index
+% calculate the spatial discontiguity index
 % 2017-6-9 19:09:25
 
 K0=length(unique(img_parc))-1;

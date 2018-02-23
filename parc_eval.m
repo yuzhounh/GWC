@@ -1,5 +1,7 @@
 function parc_eval(method)
-% evaluate a parcellation method
+% Evaluate a parcellation method. Four evaluation metrics are calculated,
+% including the acutual number, spatial discontiguity index, functional
+% homogeneity, and reproducibility. 
 % 2017-6-12 13:59:41
 
 mkdir(sprintf('%s_num',method));

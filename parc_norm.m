@@ -1,5 +1,5 @@
 function x=parc_norm(x)
-% demean and normalize to unit length
+% For a vector x, demean and normalize it to unit length. 
 % 2015-6-3 08:42:58
 
 n=size(x,2);
