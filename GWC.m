@@ -26,7 +26,7 @@ alpha=ones(3,1)/3;
 % initialize S
 G=graph_spatial + lambda * graph_weighted(graph_features,alpha);
 V=-G/2;
-S=GWC_S(V,nNonzero); % problem (13) & (14) without c_i
+S=GWC_S(V,nNonzero); % problem (11) without Z
 S=(S+S')/2; % to be symmetric
 
 % Alternative iteration
@@ -37,11 +37,11 @@ while rel>1e-3 && iter<100
     S0=S; % results in the previous iteration
     
     % update Z by fixing S and alpha
-    % problem (7) & (9)
+    % problem (9) and (10)
     Z=GWC_Z(S,cK);
     
     % update S by fixing alpha and Z
-    % problem (10)-(13)
+    % problem (11), (13), (15), and (16)
     % nNonzero=300; % the number of nonzero elements in each column of S
     graph_eigenvector=graph_fea(Z);
     mu=1e4; % a large enough value, fixed
@@ -51,7 +51,7 @@ while rel>1e-3 && iter<100
     S=(S+S')/2; % to be symmetric
     
     % update alpha by fixing Z and S
-    % problem (14)-(16)
+    % problem (17), (20), and (21)
     graph_features_vector=reshape(graph_features,[n*n,t]);
     S_vector=reshape(S,[n*n,1]);
     beta=mean(betas);
