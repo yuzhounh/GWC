@@ -10,8 +10,8 @@ provided in this toolbox.
 
 <table style="width:100%; table-layout:fixed;">
   <tr>
-    <td><img width="150px" src="m6_illustrations.png"></td>
-    <td><img width="150px" src="m7_comparison.png"></td>
+    <td><img width="400px" src="m6_illustrations.png"></td>
+    <td><img width="400px" src="m7_comparison.png"></td>
   </tr>
   <tr>
     <td>Illustrations</td>
