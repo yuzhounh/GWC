@@ -8,6 +8,17 @@ applies the three approaches on the resting-state fMRI data of three
 subjects from the Beijing_Zang dataset (of the fcon_1000 project) is 
 provided in this toolbox. 
 
+<table style="width:100%; table-layout:fixed;">
+  <tr>
+    <td><img width="150px" src="m6_illustrations.png"></td>
+    <td><img width="150px" src="m7_comparison.png"></td>
+  </tr>
+  <tr>
+    <td>Illustrations</td>
+    <td>Comparison</td>
+  </tr>
+</table>
+
 ## Usage:
 Run main.m to play the demo. 
 
